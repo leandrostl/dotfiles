@@ -74,7 +74,6 @@ plugins=(
     git
     docker-compose
     docker
-    zsh-syntax-highlighting
     zsh-autosuggestions
     encode64
     history
