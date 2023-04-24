@@ -78,6 +78,7 @@ plugins=(
     encode64
     history
     gradle
+    bgnotify
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -109,4 +110,5 @@ source $ZSH/oh-my-zsh.sh
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-source /home/leandro/zsh-syntax-highlighting/zsh-syntax-highlighting.zshconfig
+
+source /home/ice_lelima/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
