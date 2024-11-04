@@ -109,6 +109,3 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
-
-source /home/ice_lelima/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
