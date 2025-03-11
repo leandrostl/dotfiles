@@ -121,3 +121,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 source <(kubectl completion bash)
 alias config='/usr/bin/git --git-dir=/home/leandro/.cfg/ --work-tree=/home/leandro'
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
