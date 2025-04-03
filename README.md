@@ -83,6 +83,7 @@ After set up dotfiles configurations, you will see some strange characters on Zs
 ```bash 
 sudo apt install fonts-powerline
 ```
+Installed the font package, open the terminal and change configuration to accept a custom font and choose `Ubuntu Mono`
 
 ## Setting Audio Switcher
 
