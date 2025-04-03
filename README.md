@@ -43,9 +43,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
    ```bash
    # Create a backup directory
    mkdir -p .config-backup && \
-   # Attempt to check out the dotfiles, capture any files that would be overwritten
    config checkout 2>&1 | egrep "\s+\." | awk {'print $1'} | \
-   # Move each of these files to the backup directory
    xargs -I{} mv {} .config-backup/{}
    ```
 
@@ -74,6 +72,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
    config commit -m "Add bashrc"
    config push
    ```
+## Setting Zsh Autosuggestion
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
 ## Setting Agnoster theme to oh-my-zsh
 
 After set up dotfiles configurations, you will see some strange characters on Zsh. It's because ubuntu doesn't have powerline fonts defined by default. So install that!
